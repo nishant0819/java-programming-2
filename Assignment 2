@@ -1,15 +1,17 @@
 Q1. What do you mean by a Data structure?
 Ans: Data structure is a way for storing, organizing, processing and retrieving data. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q2. What are some of the applications of DS?
 Ans: Arrays, Linked list, Queue, Stack, Graph, Tree are some of the applications of Data Structure.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q3. What are the advantages of a Linked list over an array?
 Ans: Both linked list and array is used for storing linear data but-
 > The Size of the list doesn't need to be mentioned at the beginning of the program.
-> As the linked list doesn't have a size limit, we can go on adding new nodes (elements) and increasing 
-the size of the list to any extent. That is why Insertion and deletion in linked list is easy as compare 
-to array.
+> As the linked list doesn't have a size limit, we can go on adding new nodes (elements) and increasing the size of the list to any extent. That is why Insertion and deletion 
+in linked list is easy as compare to array.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q4. Write the syntax in C to create a node in the singly linked list.
 Ans: <Below is the code>
@@ -42,65 +44,65 @@ void addNode(int data) {
         tail = newNode;  
     }  
 }  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q5. What is the use of a doubly-linked list when compared to that of a singly linked list?
-Ans: 1. Doubly linked list allows element two way traversal whereas Singly linked list allows traversal of 
-elements only in one way.
-2. In case od doubly linked list the complexity of insertion and deletion at a known position is O(1) whereas 
-in Singly linked list it is O(n).
-3. If we need better performance while searching and memory is not a limitation in this case doubly linked 
-list is more preferred.
+Ans: 1. Doubly linked list allows element two way traversal whereas Singly linked list allows traversal of elements only in one way.
+2. In case od doubly linked list the complexity of insertion and deletion at a known position is O(1) whereas in Singly linked list it is O(n).
+3. If we need better performance while searching and memory is not a limitation in this case doubly linked list is more preferred.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q6. What is the difference between an Array and Stack?
-Ans: The major difference between array and stack is array stores elements of same type whereas stack stores
-elements of different type. Also in an array, we have a list of elements and we can access any of them at any 
-time. But in a stack, there's no random-access operation; there are only Push, Peek and Pop operations.
+Ans: The major difference between array and stack is array stores elements of same type whereas stack storeselements of different type. Also in an array, we have a list of 
+elements and we can access any of them at any time. But in a stack, there's no random-access operation; there are only Push, Peek and Pop operations.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q7. What are the minimum number of Queues needed to implement the priority queue?
-Ans: Two is the minimum number of Queues needed to implement the priority queue, the first one for storing 
-data and the other one for priorities.
+Ans: Two is the minimum number of Queues needed to implement the priority queue, the first one for storing data and the other one for priorities.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q8. What are the different types of traversal techniques in a tree?
 Ans: There are three types of traversal techniques available for trees-
-1.	In-order traversal
-2.	Pre-order traversal
-3.	Post-order traversal
+1. In-order traversal
+2. Pre-order traversal
+3. Post-order traversal
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q9. Why it is said that searching a node in a binary search tree is efficient than that of a simple binary 
-tree?
-Ans: While Binary search tree is data structure which uses the concept of binary search. Binary search tree 
-has a special quality that every node has at most 2 nodes and left child of every node has less value than node 
-and right child has more value than node. By this method it become easy to search a node in a tree.
+Q9. Why it is said that searching a node in a binary search tree is efficient than that of a simple binary tree?
+Ans: While Binary search tree is data structure which uses the concept of binary search. Binary search tree has a special quality that every node has at most 2 nodes and left 
+child of every node has less value than node and right child has more value than node. By this method it become easy to search a node in a tree.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q10. What are the applications of Graph DS?
-Ans: Graphs are one of the best data structures that we use every day through Google Search, Google Maps, 
-GPS, and social media. They are used to represent elements that share connections. Google maps uses graphs 
-for building transportation systems, where intersection of two or more roads are considered to be a vertex
-and the road connecting two vertices is considered to be an edge, thus their navigation system is based on 
-the algorithm to calculate the shortest path between two vertices.
+Ans: Graphs are one of the best data structures that we use every day through Google Search, Google Maps, GPS, and social media. They are used to represent elements that share 
+connections. Google maps uses graphs for building transportation systems, where intersection of two or more roads are considered to be a vertex and the road connecting two 
+vertices is considered to be an edge, thus their navigation system is based on the algorithm to calculate the shortest path between two vertices.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q11. Can we apply Binary search algorithm to a sorted Linked list?
-Ans: Yes, Binary search is possible on the linked list if the list is ordered and you know the count of elements 
-in list. But While sorting the list, you can access a single element at a time through a pointer to that node i.e. 
-either a previous node or next node. 
+Ans: Yes, Binary search is possible on the linked list if the list is ordered and you know the count of elements in list. But While sorting the list, you can access a single 
+element at a time through a pointer to that node i.e. either a previous node or next node. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q12. When can you tell that a Memory Leak will occur?
-Ans. Memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no 
-longer needed is not released. A memory leak may also happen when an object is stored in memory but cannot be accessed by the running code.A memory leak has symptoms 
-similar to a number of other problems and generally can only be diagnosed by a programmer with access to the programs source code. 
-When we initialize or create memory for the any object by using constructor. On that time we can say that we create thread for memory management. 
-On that time thread active in environment. Programmer forget to call destructor for release or free that thread. Than this type of problem is called memory leakage in c++.
+Ans. Memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no longer needed is not
+released. A memory leak may also happen when an object is stored in memory but cannot be accessed by the running code.A memory leak has symptoms similar to a number of other 
+problems and generally can only be diagnosed by a programmer with access to the programs source code. 
+When we initialize or create memory for the any object by using constructor. On that time we can say that we create thread for memory management. On that time thread active 
+in environment. Programmer forget to call destructor for release or free that thread. Than this type of problem is called memory leakage in c++.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q13. How will you check if a given Binary Tree is a Binary Search Tree or not?
 Ans:A Binary Search Tree is a binary tree with the following properties:
 1. The left subtree of a particular node will always contain nodes whose keys are less than that node’s key.
 2. The right subtree of a particular node will always contain nodes with keys greater than that node’s key.
 3. The left and right subtree of a particular node will also, in turn, be binary search trees.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q14. Which data structure is ideal to perform recursion operation and why?
-Ans.  Stack is ideal to perform recursion operation because of its LIFO (Last In First Out) property it remembers 
-its ‘caller’ so knows whom to return when the function has to return. Recursion makes use of system stack 
-for storing the return addresses of the function calls.
+Ans.  Stack is ideal to perform recursion operation because of its LIFO (Last In First Out) property it remembers its ‘caller’ so knows whom to return when the function has to 
+return. Recursion makes use of system stack for storing the return addresses of the function calls.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q15. What are some of the most important applications of a Stack?
 Ans: Some of the applications of a Stack are-
@@ -109,9 +111,11 @@ Ans: Some of the applications of a Stack are-
 3. Stacks can be used for Conversion from one form of expression to another.
 4. Stacks can be used to check parenthesis matching in an expression.
 5. Stack data structures are used in backtracking problems.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q16. Convert the below given expression to its equivalent Prefix And Postfix notations.
 Ans: <NO Expression Available>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q17. Sorting a stack using a temporary stack
 Ans: <Below is the code>
@@ -144,6 +148,7 @@ public class stackSort {
         }
     }
 }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q18. Program to reverse a queue.
 Ans. <Below is the code>
@@ -184,6 +189,7 @@ class QueueReverse {
         Print();
     }
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q19. Program to reverse first k elements of a queue.
 Ans: <Below is the code>
@@ -239,6 +245,7 @@ public class Reverse_k_element_queue {
 		Print(); 
 	} 
 } 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q20. Program to return the nth node from the end in a linked list.
 Ans: <Below is the code>
@@ -281,6 +288,7 @@ public class Test {
         lst.printNthFromLast(4);
     }
 }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q21. Reverse a linked list
 Ans: class LinkedList { 
@@ -328,6 +336,7 @@ Ans: class LinkedList {
         list.printList(head); 
     } 
 } 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q22. Replace each and every element of a array by its rank in the array?
 Ans: <Below is the code>
@@ -351,6 +360,7 @@ class Main
 		System.out.println(Arrays.toString(A));
 	}
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q23. 23) Check if a given graph is a tree or not
 Ans: <Below is the code>
@@ -434,6 +444,7 @@ class Graph
             System.out.println("Graph is not Tree"); 
     } 
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q24. Find out the Kth smallest element in an unsorted array
 Ans: <Below is the code>
@@ -453,7 +464,7 @@ import java.util.Arrays;
         	System.out.print("K'th smallest element is " + kthSmallest(arr, k));
     	}
   }
-  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Q25. How to find the shortest path between two vertices?
 Ans: For finding the shortest path between two vertices these are the steps-
@@ -462,3 +473,5 @@ Ans: For finding the shortest path between two vertices these are the steps-
 3. Find the paths between the source and destination nodes.
 4. Find the number of edges in all the paths and return the path having the minimum number of edges.
 5. So through this the shortest path between the two vertices will be found.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
